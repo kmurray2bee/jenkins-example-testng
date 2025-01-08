@@ -10,7 +10,7 @@ metadata:
 spec:
   containers:
     - name: maven
-      image: maven:3.9.9-eclipse-temurin-11-alpine
+      image: maven:latest
       command:
         - cat
       tty: true
