@@ -34,7 +34,7 @@ spec:
     }
     post {
         always {
-            node {
+            container('maven') {
                 junit 'target/surefire-reports/*.xml'
             }
         }
